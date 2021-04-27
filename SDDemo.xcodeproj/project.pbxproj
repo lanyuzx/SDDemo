@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2E842637BB7700B61291 /* SDClockVC.swift */; };
+		A05D2E8D2637BCF400B61291 /* SDClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2E8C2637BCF400B61291 /* SDClockView.swift */; };
+		A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2EA32637D4F600B61291 /* SDTimerObserver.swift */; };
 		A076628026352EFC009C0192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076627F26352EFC009C0192 /* AppDelegate.swift */; };
 		A076628426352EFC009C0192 /* SDDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076628326352EFC009C0192 /* SDDemoVC.swift */; };
 		A076628926352EFE009C0192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A076628826352EFE009C0192 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		2403F3DC6FA3A2640B78AFF4 /* Pods-SDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDDemo.debug.xcconfig"; path = "Target Support Files/Pods-SDDemo/Pods-SDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A05D2E842637BB7700B61291 /* SDClockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDClockVC.swift; sourceTree = "<group>"; };
+		A05D2E8C2637BCF400B61291 /* SDClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDClockView.swift; sourceTree = "<group>"; };
+		A05D2EA32637D4F600B61291 /* SDTimerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTimerObserver.swift; sourceTree = "<group>"; };
 		A076627C26352EFC009C0192 /* SDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A076627F26352EFC009C0192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A076628326352EFC009C0192 /* SDDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDDemoVC.swift; sourceTree = "<group>"; };
@@ -106,6 +112,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A05D2E832637BB5300B61291 /* 仿系统钟表 */ = {
+			isa = PBXGroup;
+			children = (
+				A05D2E842637BB7700B61291 /* SDClockVC.swift */,
+				A05D2E8C2637BCF400B61291 /* SDClockView.swift */,
+				A05D2EA32637D4F600B61291 /* SDTimerObserver.swift */,
+			);
+			path = "仿系统钟表";
+			sourceTree = "<group>";
+		};
 		A076627326352EFC009C0192 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +180,7 @@
 		A07662C8263536F7009C0192 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A05D2E832637BB5300B61291 /* 仿系统钟表 */,
 				A07662DC26353D98009C0192 /* 贝塞尔曲线上实现粒子动画 */,
 				A07662C9263536F7009C0192 /* 仿Lottie播放动画 */,
 			);
@@ -361,9 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05D2E8D2637BCF400B61291 /* SDClockView.swift in Sources */,
 				A07662E626353E13009C0192 /* SDBaseVC.swift in Sources */,
 				A07662CB26353712009C0192 /* SDPlayAnimationVC.swift in Sources */,
 				A07662EE26353E6A009C0192 /* SDParticleAnimationsView.swift in Sources */,
+				A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */,
+				A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */,
 				A07662C4263531B2009C0192 /* SDDemoModel.swift in Sources */,
 				A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */,
 				A076628426352EFC009C0192 /* SDDemoVC.swift in Sources */,

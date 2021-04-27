@@ -43,7 +43,7 @@ extension SDDemoVC {
          */
         let year2021_april = SDDemoModel()
         year2021_april.date = "2021年04月"
-        for index in 0..<2 {
+        for index in 0..<3 {
             switch index {
             case 0: //加载播放小动画
                 var animiModel = SDDemoItemModel(item: "CAKeyframeAnimation播放小动画")
@@ -53,6 +53,11 @@ extension SDDemoVC {
             case 1:
                 var animiModel = SDDemoItemModel(item: "贝塞尔曲线上实现粒子动画")
                 animiModel.vcName = "SDParticleAnimationsVC"
+                year2021_april.items.append(animiModel)
+                break
+            case 2:
+                var animiModel = SDDemoItemModel(item: "仿系统钟表")
+                animiModel.vcName = "SDClockVC"
                 year2021_april.items.append(animiModel)
                 break
             default:
