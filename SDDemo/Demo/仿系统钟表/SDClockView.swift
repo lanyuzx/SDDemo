@@ -14,6 +14,9 @@ private let minuteAngle = 6
 //时针一次转30度
 private let hourAngle = 30.0
 
+//时针1分钟转的度数
+private let hourMinuteAngle = 0.5
+
 class SDClockView: UIView {
     
     /// 秒针
@@ -95,7 +98,7 @@ extension SDClockView:TimerObserverDelegate {
         self.minutesLayer?.transform = CATransform3DMakeRotation(angleToRadian(angle: CGFloat(minute)), 0, 0, 1)
         
         //获取当前小时
-        let hour = Double((components.hour ?? 0)) * hourAngle
+        let hour = Double((components.hour ?? 0)) * hourAngle  + Double(components.hour ?? 0) * hourMinuteAngle
         self.hourLayer?.transform = CATransform3DMakeRotation(angleToRadian(angle: CGFloat(hour)), 0, 0, 1)
     }
     
