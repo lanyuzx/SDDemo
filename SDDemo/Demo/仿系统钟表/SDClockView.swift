@@ -34,6 +34,10 @@ class SDClockView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    deinit {
+        SDTimerObserver.sharedInstance.removeTimerObserver(self)
+    }
+    
     private func setupUI() {
         addSubview(clockIV)
         clockIV.snp.makeConstraints { (make) in
