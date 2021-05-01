@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A034F655263911680096D7D2 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F654263911680096D7D2 /* Extension+Array.swift */; };
 		A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2E842637BB7700B61291 /* SDClockVC.swift */; };
 		A05D2E8D2637BCF400B61291 /* SDClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2E8C2637BCF400B61291 /* SDClockView.swift */; };
 		A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05D2EA32637D4F600B61291 /* SDTimerObserver.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		2403F3DC6FA3A2640B78AFF4 /* Pods-SDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDDemo.debug.xcconfig"; path = "Target Support Files/Pods-SDDemo/Pods-SDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A034F654263911680096D7D2 /* Extension+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
 		A05D2E842637BB7700B61291 /* SDClockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDClockVC.swift; sourceTree = "<group>"; };
 		A05D2E8C2637BCF400B61291 /* SDClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDClockView.swift; sourceTree = "<group>"; };
 		A05D2EA32637D4F600B61291 /* SDTimerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDTimerObserver.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A034F653263911490096D7D2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A034F654263911680096D7D2 /* Extension+Array.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A05D2E832637BB5300B61291 /* 仿系统钟表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 				A07662C3263531B2009C0192 /* SDDemoModel.swift */,
 				A076628326352EFC009C0192 /* SDDemoVC.swift */,
 				A07662E526353E13009C0192 /* SDBaseVC.swift */,
+				A034F653263911490096D7D2 /* Extension */,
 				A07662C8263536F7009C0192 /* Demo */,
 				A076628826352EFE009C0192 /* Assets.xcassets */,
 				A076628A26352EFE009C0192 /* LaunchScreen.storyboard */,
@@ -385,6 +396,7 @@
 				A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */,
 				A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */,
 				A07662C4263531B2009C0192 /* SDDemoModel.swift in Sources */,
+				A034F655263911680096D7D2 /* Extension+Array.swift in Sources */,
 				A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */,
 				A076628426352EFC009C0192 /* SDDemoVC.swift in Sources */,
 				A07662D326353733009C0192 /* SDPlayAnimationView.swift in Sources */,

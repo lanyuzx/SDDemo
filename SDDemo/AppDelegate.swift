@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navVC = UINavigationController(rootViewController: SDDemoVC())
         window?.rootViewController = navVC
         window?.makeKeyAndVisible()
+        
         return true
     }
 

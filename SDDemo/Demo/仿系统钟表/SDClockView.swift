@@ -98,7 +98,7 @@ extension SDClockView:TimerObserverDelegate {
         self.minutesLayer?.transform = CATransform3DMakeRotation(angleToRadian(angle: CGFloat(minute)), 0, 0, 1)
         
         //获取当前小时
-        let hour = Double((components.hour ?? 0)) * hourAngle  + Double(components.hour ?? 0) * hourMinuteAngle
+        let hour = Double((components.hour ?? 0)) * hourAngle  + Double(components.minute ?? 0) * hourMinuteAngle
         self.hourLayer?.transform = CATransform3DMakeRotation(angleToRadian(angle: CGFloat(hour)), 0, 0, 1)
     }
     
