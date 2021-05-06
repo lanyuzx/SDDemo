@@ -23,6 +23,11 @@
 		A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662DD26353DD4009C0192 /* SDParticleAnimationsVC.swift */; };
 		A07662E626353E13009C0192 /* SDBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662E526353E13009C0192 /* SDBaseVC.swift */; };
 		A07662EE26353E6A009C0192 /* SDParticleAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */; };
+		A08C13602643B345002DD0A3 /* SDPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135C2643B345002DD0A3 /* SDPageControl.swift */; };
+		A08C13612643B345002DD0A3 /* SDCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135D2643B345002DD0A3 /* SDCycleView.swift */; };
+		A08C13622643B345002DD0A3 /* SDCycleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135E2643B345002DD0A3 /* SDCycleLayout.swift */; };
+		A08C13632643B345002DD0A3 /* SDCycleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135F2643B345002DD0A3 /* SDCycleViewCell.swift */; };
+		A08C13682643B448002DD0A3 /* SDSDCycleViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C13672643B448002DD0A3 /* SDSDCycleViewVC.swift */; };
 		D6CC1B9B99CDA4CA6850C52E /* Pods_SDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06684FA559811A2AED0779A /* Pods_SDDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +72,11 @@
 		A07662DD26353DD4009C0192 /* SDParticleAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDParticleAnimationsVC.swift; sourceTree = "<group>"; };
 		A07662E526353E13009C0192 /* SDBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBaseVC.swift; sourceTree = "<group>"; };
 		A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDParticleAnimationsView.swift; sourceTree = "<group>"; };
+		A08C135C2643B345002DD0A3 /* SDPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPageControl.swift; sourceTree = "<group>"; };
+		A08C135D2643B345002DD0A3 /* SDCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCycleView.swift; sourceTree = "<group>"; };
+		A08C135E2643B345002DD0A3 /* SDCycleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCycleLayout.swift; sourceTree = "<group>"; };
+		A08C135F2643B345002DD0A3 /* SDCycleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCycleViewCell.swift; sourceTree = "<group>"; };
+		A08C13672643B448002DD0A3 /* SDSDCycleViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSDCycleViewVC.swift; sourceTree = "<group>"; };
 		E3AAAC1CC4D21D7DC3963FC3 /* Pods-SDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDDemo.release.xcconfig"; path = "Target Support Files/Pods-SDDemo/Pods-SDDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F06684FA559811A2AED0779A /* Pods_SDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -191,6 +201,7 @@
 		A07662C8263536F7009C0192 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A08C135B2643B2CF002DD0A3 /* swift轮播图 */,
 				A05D2E832637BB5300B61291 /* 仿系统钟表 */,
 				A07662DC26353D98009C0192 /* 贝塞尔曲线上实现粒子动画 */,
 				A07662C9263536F7009C0192 /* 仿Lottie播放动画 */,
@@ -214,6 +225,18 @@
 				A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */,
 			);
 			path = "贝塞尔曲线上实现粒子动画";
+			sourceTree = "<group>";
+		};
+		A08C135B2643B2CF002DD0A3 /* swift轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				A08C135E2643B345002DD0A3 /* SDCycleLayout.swift */,
+				A08C135D2643B345002DD0A3 /* SDCycleView.swift */,
+				A08C135F2643B345002DD0A3 /* SDCycleViewCell.swift */,
+				A08C135C2643B345002DD0A3 /* SDPageControl.swift */,
+				A08C13672643B448002DD0A3 /* SDSDCycleViewVC.swift */,
+			);
+			path = "swift轮播图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,16 +414,21 @@
 			files = (
 				A05D2E8D2637BCF400B61291 /* SDClockView.swift in Sources */,
 				A07662E626353E13009C0192 /* SDBaseVC.swift in Sources */,
+				A08C13632643B345002DD0A3 /* SDCycleViewCell.swift in Sources */,
 				A07662CB26353712009C0192 /* SDPlayAnimationVC.swift in Sources */,
 				A07662EE26353E6A009C0192 /* SDParticleAnimationsView.swift in Sources */,
 				A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */,
 				A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */,
 				A07662C4263531B2009C0192 /* SDDemoModel.swift in Sources */,
 				A034F655263911680096D7D2 /* Extension+Array.swift in Sources */,
+				A08C13622643B345002DD0A3 /* SDCycleLayout.swift in Sources */,
+				A08C13612643B345002DD0A3 /* SDCycleView.swift in Sources */,
+				A08C13602643B345002DD0A3 /* SDPageControl.swift in Sources */,
 				A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */,
 				A076628426352EFC009C0192 /* SDDemoVC.swift in Sources */,
 				A07662D326353733009C0192 /* SDPlayAnimationView.swift in Sources */,
 				A076628026352EFC009C0192 /* AppDelegate.swift in Sources */,
+				A08C13682643B448002DD0A3 /* SDSDCycleViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

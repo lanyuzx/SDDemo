@@ -65,6 +65,20 @@ extension SDDemoVC {
             }
         }
         dataSource.append(year2021_april)
+        let year2021_May = SDDemoModel()
+        year2021_May.date = "2021年05月"
+        for index in 0..<1 {
+            switch index {
+            case 0: //加载播放小动画
+                var animiModel = SDDemoItemModel(item: "swift轮播图")
+                animiModel.vcName = "SDSDCycleViewVC"
+                year2021_May.items.append(animiModel)
+                break
+            default:
+                break
+            }
+        }
+        dataSource.append(year2021_May)
         return dataSource
         
     }
