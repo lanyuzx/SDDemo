@@ -13,11 +13,14 @@ class SDQQBageValueVC: SDBaseVC {
         super.viewDidLoad()
          
         let bageValueButton = SDBageValueButton()
+        bageValueButton.frame.origin = view.center
+        bageValueButton.frame.size = CGSize(width: 20, height: 20)
         view.addSubview(bageValueButton)
-        bageValueButton.snp.makeConstraints { (make) in
-            make.center.equalToSuperview()
-            make.width.height.equalTo(20)
-        }
+        //不知道为啥使用自动布局不能拖动
+//        bageValueButton.snp.makeConstraints { (make) in
+//            make.center.equalToSuperview()
+//            make.width.height.equalTo(20)
+//        }
     }
 
 }
