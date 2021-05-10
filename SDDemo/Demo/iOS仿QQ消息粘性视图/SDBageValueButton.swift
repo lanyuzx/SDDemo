@@ -48,8 +48,8 @@ class SDBageValueButton: UIButton {
 //        debugPrint("2圆距离===\(distance)")
         var smallR = bounds.size.width  * 0.5
         smallR = smallR -  distance / 10.0
-//        let scale = smallR / (self.bounds.size.width / 2.0)
-//        smallView.transform = CGAffineTransform(scaleX: scale, y: scale )
+        let scale = smallR / (self.bounds.size.width / 2.0)
+        smallView.transform = CGAffineTransform(scaleX: scale, y: scale )
         smallView.bounds.size = CGSize(width: smallR * 2, height: smallR * 2)
         smallView.layer.cornerRadius = smallR
         
