@@ -67,13 +67,13 @@ class SDClockView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        secondsLayer?.bounds = CGRect(x: 0, y: 0, width: 2, height: self.bounds.size.height / 2)
+        secondsLayer?.bounds = CGRect(x: 0, y: 0, width: 2, height: self.bounds.size.height / 2 - 15)
         secondsLayer?.position = CGPoint(x: self.bounds.width / 2, y: self.bounds.height / 2)
         
-        minutesLayer?.bounds = CGRect(x: 0, y: 0, width: 4, height: self.bounds.size.height / 2 - 20)
+        minutesLayer?.bounds = CGRect(x: 0, y: 0, width: 4, height: self.bounds.size.height / 2 - 25)
         minutesLayer?.position = CGPoint(x: self.bounds.width / 2, y: self.bounds.height / 2)
         
-        hourLayer?.bounds = CGRect(x: 0, y: 0, width: 6, height: self.bounds.size.height / 2 - 40)
+        hourLayer?.bounds = CGRect(x: 0, y: 0, width: 6, height: self.bounds.size.height / 2 - 35)
         hourLayer?.position = CGPoint(x: self.bounds.width / 2, y: self.bounds.height / 2)
     }
     

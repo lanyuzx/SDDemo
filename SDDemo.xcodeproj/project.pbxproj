@@ -23,6 +23,8 @@
 		A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662DD26353DD4009C0192 /* SDParticleAnimationsVC.swift */; };
 		A07662E626353E13009C0192 /* SDBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662E526353E13009C0192 /* SDBaseVC.swift */; };
 		A07662EE26353E6A009C0192 /* SDParticleAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */; };
+		A07AEAD52647C3BF00BADB9F /* SDQQBageValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07AEAD42647C3BF00BADB9F /* SDQQBageValueVC.swift */; };
+		A07AEAE02647C43500BADB9F /* SDBageValueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07AEADF2647C43500BADB9F /* SDBageValueButton.swift */; };
 		A08C13602643B345002DD0A3 /* SDPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135C2643B345002DD0A3 /* SDPageControl.swift */; };
 		A08C13612643B345002DD0A3 /* SDCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135D2643B345002DD0A3 /* SDCycleView.swift */; };
 		A08C13622643B345002DD0A3 /* SDCycleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C135E2643B345002DD0A3 /* SDCycleLayout.swift */; };
@@ -72,6 +74,8 @@
 		A07662DD26353DD4009C0192 /* SDParticleAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDParticleAnimationsVC.swift; sourceTree = "<group>"; };
 		A07662E526353E13009C0192 /* SDBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBaseVC.swift; sourceTree = "<group>"; };
 		A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDParticleAnimationsView.swift; sourceTree = "<group>"; };
+		A07AEAD42647C3BF00BADB9F /* SDQQBageValueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDQQBageValueVC.swift; sourceTree = "<group>"; };
+		A07AEADF2647C43500BADB9F /* SDBageValueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDBageValueButton.swift; sourceTree = "<group>"; };
 		A08C135C2643B345002DD0A3 /* SDPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPageControl.swift; sourceTree = "<group>"; };
 		A08C135D2643B345002DD0A3 /* SDCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCycleView.swift; sourceTree = "<group>"; };
 		A08C135E2643B345002DD0A3 /* SDCycleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCycleLayout.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 		A07662C8263536F7009C0192 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A07AEAD32647C38800BADB9F /* iOS仿QQ消息粘性视图 */,
 				A08C135B2643B2CF002DD0A3 /* swift轮播图 */,
 				A05D2E832637BB5300B61291 /* 仿系统钟表 */,
 				A07662DC26353D98009C0192 /* 贝塞尔曲线上实现粒子动画 */,
@@ -225,6 +230,15 @@
 				A07662ED26353E6A009C0192 /* SDParticleAnimationsView.swift */,
 			);
 			path = "贝塞尔曲线上实现粒子动画";
+			sourceTree = "<group>";
+		};
+		A07AEAD32647C38800BADB9F /* iOS仿QQ消息粘性视图 */ = {
+			isa = PBXGroup;
+			children = (
+				A07AEAD42647C3BF00BADB9F /* SDQQBageValueVC.swift */,
+				A07AEADF2647C43500BADB9F /* SDBageValueButton.swift */,
+			);
+			path = "iOS仿QQ消息粘性视图";
 			sourceTree = "<group>";
 		};
 		A08C135B2643B2CF002DD0A3 /* swift轮播图 */ = {
@@ -422,6 +436,8 @@
 				A07662C4263531B2009C0192 /* SDDemoModel.swift in Sources */,
 				A034F655263911680096D7D2 /* Extension+Array.swift in Sources */,
 				A08C13622643B345002DD0A3 /* SDCycleLayout.swift in Sources */,
+				A07AEAD52647C3BF00BADB9F /* SDQQBageValueVC.swift in Sources */,
+				A07AEAE02647C43500BADB9F /* SDBageValueButton.swift in Sources */,
 				A08C13612643B345002DD0A3 /* SDCycleView.swift in Sources */,
 				A08C13602643B345002DD0A3 /* SDPageControl.swift in Sources */,
 				A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */,
@@ -597,15 +613,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VMTN98C772;
 				INFOPLIST_FILE = SDDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunlands.com.SDDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunland.SDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xcode_universal_210322_comsunland;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -617,15 +636,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VMTN98C772;
 				INFOPLIST_FILE = SDDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunlands.com.SDDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunland.SDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xcode_universal_210322_comsunland;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
