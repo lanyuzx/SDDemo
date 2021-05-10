@@ -28,8 +28,7 @@ class SDSDCycleViewVC: SDBaseVC {
     private lazy var defaultCycleView:SDCycleView = {
        let defaultCycleView = SDCycleView()
         defaultCycleView.delegate = self
-        defaultCycleView.setImagesGroup(images.map{return UIImage(named: $0)})
-//        defaultCycleView.setTitlesGroup(titles)
+        defaultCycleView.setImagesGroup(images.map{return UIImage(named: $0)},titlesGroup: titles)
         return defaultCycleView
     }()
 }
@@ -39,7 +38,10 @@ extension SDSDCycleViewVC: SDCycleViewProtocol {
         imageView.image = UIImage(named: images[index])
     }
     
-//    func cycleViewConfigureDefaultCellText(_ cycleView: SDCycleView, titleLabel: UILabel, index: Int) {
-//        titleLabel.text = titles[index]
-//    }
+    func cycleViewConfigureDefaultCellText(_ cycleView: SDCycleView, titleLabel: UILabel, index: Int) {
+        titleLabel.text = titles[index]
+        titleLabel.textColor = .red
+        titleLabel.textAlignment = .right
+        titleLabel.font = UIFont.systemFont(ofSize: 16)
+    }
 }
