@@ -19,10 +19,10 @@ class SDCycleLayout: UICollectionViewFlowLayout {
         if let collectionView = collectionView {
             if scrollDirection == .horizontal {
                 let offset = (collectionView.frame.size.width-itemSize.width)/2
-                sectionInset = UIEdgeInsets.init(top: 0, left: offset, bottom: 0, right: 0)
+                sectionInset = UIEdgeInsets(top: 0, left: offset, bottom: 0, right: offset)
             } else {
                 let offset = (collectionView.frame.size.height-itemSize.height)/2
-                sectionInset = UIEdgeInsets.init(top: offset, left: 0, bottom: 0, right: 0)
+                sectionInset = UIEdgeInsets(top: offset, left: 0, bottom: offset, right: 0)
             }
         }
     }
@@ -33,8 +33,9 @@ class SDCycleLayout: UICollectionViewFlowLayout {
     
     override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         if let attributes = super.layoutAttributesForElements(in: rect),
-            let collectionView = collectionView {
-            let attris = NSArray(array: attributes, copyItems:true) as! [UICollectionViewLayoutAttributes]
+            let collectionView = collectionView
+        {
+            let attris = NSArray(array: attributes, copyItems: true) as! [UICollectionViewLayoutAttributes]
             for attri in attris {
                 var scale: CGFloat = 1
                 var absOffset: CGFloat = 0
@@ -42,20 +43,20 @@ class SDCycleLayout: UICollectionViewFlowLayout {
                 let centerY = collectionView.bounds.size.height*0.5 + collectionView.contentOffset.y
                 if scrollDirection == .horizontal {
                     absOffset = abs(attri.center.x-centerX)
-                    let distance = itemSize.width+minimumLineSpacing
-                    if absOffset < distance {///当前index
+                    let distance = itemSize.width + minimumLineSpacing
+                    if absOffset < distance { /// 当前index
                         scale = (1-absOffset/distance)*(self.scale-1) + 1
                     }
                 } else {
                     absOffset = abs(attri.center.y-centerY)
-                    let distance = itemSize.height+minimumLineSpacing
+                    let distance = itemSize.height + minimumLineSpacing
                     if absOffset < distance {
                         scale = (1-absOffset/distance)*(self.scale-1) + 1
                     }
                 }
                 
-                attri.zIndex = Int(scale * 1000)
-                attri.transform = CGAffineTransform(scaleX:scale,y: scale)
+                attri.zIndex = Int(scale*1000)
+                attri.transform = CGAffineTransform(scaleX: scale, y: scale)
             }
             return attris
         }

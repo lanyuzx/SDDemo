@@ -90,6 +90,21 @@ extension SDDemoVC {
             }
         }
         dataSource.append(year2021_May)
+        
+        let year2021_July = SDDemoModel()
+        year2021_July.date = "2021年07月"
+        for index in 0..<1 {
+            switch index {
+            case 0: //tableView左右联动
+                var animiModel = SDDemoItemModel(item: "tableView左右联动")
+                animiModel.vcName = "MallTabBarVC"
+                year2021_July.items.append(animiModel)
+                break
+            default:
+                break
+            }
+        }
+        dataSource.append(year2021_July)
         return dataSource
         
     }

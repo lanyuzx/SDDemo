@@ -1,0 +1,124 @@
+{
+    "code": 20000,
+    "msg": "OK",
+    "msgDetail": null,
+    "data": {
+        "firstCategory": [{
+            "firstCategoryName": "测试类目",
+            "firstShowName": "测试",
+            "firstCategoryId": 56,
+            "secondCategory": [{
+                "secondCategoryName": "等等邓",
+                "secondShowName": "等等等",
+                "secondCategoryId": 133
+            }]
+        }, {
+            "firstCategoryName": "颜料",
+            "firstShowName": "颜料",
+            "firstCategoryId": 59,
+            "secondCategory": [{
+                "secondCategoryName": "国画颜料",
+                "secondShowName": "国画颜料",
+                "secondCategoryId": 61
+            }]
+        }, {
+            "firstCategoryName": "国画test1",
+            "firstShowName": "国画001",
+            "firstCategoryId": 63,
+            "secondCategory": [{
+                "secondCategoryName": "毛笔test1",
+                "secondShowName": "毛笔001",
+                "secondCategoryId": 64
+            }]
+        }, {
+            "firstCategoryName": "纸/笔01",
+            "firstShowName": "纸/笔",
+            "firstCategoryId": 65,
+            "secondCategory": [{
+                "secondCategoryName": "纸/笔-纸",
+                "secondShowName": "纸-笔",
+                "secondCategoryId": 66
+            }]
+        }, {
+            "firstCategoryName": "白酒1",
+            "firstShowName": "白酒茅台",
+            "firstCategoryId": 68,
+            "secondCategory": [{
+                "secondCategoryName": "飞天茅台",
+                "secondShowName": "飞天茅台",
+                "secondCategoryId": 77
+            }]
+        }, {
+            "firstCategoryName": "多规格",
+            "firstShowName": "多规格",
+            "firstCategoryId": 116,
+            "secondCategory": [{
+                "secondCategoryName": "商品多规格",
+                "secondShowName": "商品规格",
+                "secondCategoryId": 117
+            }, {
+                "secondCategoryName": "画具",
+                "secondShowName": "画画",
+                "secondCategoryId": 118
+            }]
+        }, {
+            "firstCategoryName": "测试lyj1",
+            "firstShowName": "lyj1",
+            "firstCategoryId": 130,
+            "secondCategory": [{
+                "secondCategoryName": "测试lyj1-2",
+                "secondShowName": "yj1-2",
+                "secondCategoryId": 131
+            }, {
+                "secondCategoryName": "测试lyj1-1",
+                "secondShowName": "yj1-1",
+                "secondCategoryId": 132
+            }]
+        }, {
+            "firstCategoryName": "国画套装",
+            "firstShowName": "国画套装",
+            "firstCategoryId": 57,
+            "secondCategory": [{
+                "secondCategoryName": "画具",
+                "secondShowName": "国画画具",
+                "secondCategoryId": 152
+            }]
+        }, {
+            "firstCategoryName": "轻松学商城单规格",
+            "firstShowName": "轻松学商城",
+            "firstCategoryId": 153,
+            "secondCategory": [{
+                "secondCategoryName": "轻松学商城单规格",
+                "secondShowName": "单毛二级",
+                "secondCategoryId": 154
+            }]
+        }, {
+            "firstCategoryName": "测试chen多规格712",
+            "firstShowName": "cy多规格",
+            "firstCategoryId": 155,
+            "secondCategory": [{
+                "secondCategoryName": "测试chen二级类目多规格712",
+                "secondShowName": "cy2-1",
+                "secondCategoryId": 156
+            }]
+        }, {
+            "firstCategoryName": "测试chen单规格712",
+            "firstShowName": "cy单规格",
+            "firstCategoryId": 157,
+            "secondCategory": [{
+                "secondCategoryName": "测试chen单-712",
+                "secondShowName": "cy单1酒",
+                "secondCategoryId": 158
+            }]
+        }, {
+            "firstCategoryName": "商品列表展示测试",
+            "firstShowName": "cs规格",
+            "firstCategoryId": 166,
+            "secondCategory": [{
+                "secondCategoryName": "商品列表展示测试单规格",
+                "secondShowName": "cs单规格",
+                "secondCategoryId": 167
+            }]
+        }]
+    }
+}

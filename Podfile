@@ -6,5 +6,9 @@ target 'SDDemo' do
   use_frameworks!
 
  pod 'SnapKit'
+ 
+ pod 'HandyJSON'
+ 
+ pod 'Kingfisher'
 
 end

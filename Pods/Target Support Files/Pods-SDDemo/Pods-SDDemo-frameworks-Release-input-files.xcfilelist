@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SDDemo/Pods-SDDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

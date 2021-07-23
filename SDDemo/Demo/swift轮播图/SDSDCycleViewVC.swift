@@ -20,6 +20,14 @@ class SDSDCycleViewVC: SDBaseVC {
             make.top.equalTo(view.safeAreaInsets.top).offset(108)
             make.height.equalTo(120)
         }
+        
+        view.addSubview(cardCycleView)
+        cardCycleView.snp.makeConstraints { (make) in
+            make.left.equalToSuperview().offset(12)
+            make.right.equalToSuperview().offset(-12)
+            make.top.equalTo(defaultCycleView.snp.bottom).offset(40)
+            make.height.equalTo(150)
+        }
     }
     
     private let images = ["h1","h2","h3","h4"]
@@ -30,6 +38,16 @@ class SDSDCycleViewVC: SDBaseVC {
         defaultCycleView.delegate = self
         defaultCycleView.setImagesGroup(images.map{return UIImage(named: $0)},titlesGroup: titles)
         return defaultCycleView
+    }()
+    
+    private lazy var cardCycleView:SDCycleView = {
+       let cycleView = SDCycleView()
+        cycleView.delegate = self
+        cycleView.itemZoomScale = 1.2
+        cycleView.itemSpacing = 30
+        cycleView.setImagesGroup(images.map{return UIImage(named: $0)},titlesGroup: titles)
+        cycleView.itemSize = CGSize(width: 250, height: 120)
+        return cycleView
     }()
 }
 
