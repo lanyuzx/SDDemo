@@ -1,9 +1,9 @@
 //
-//  MallChildProductListVC.swift
-//  SDDailyStudyProject
+//  MallSpuModel.swift
+//  lanlan
 //
-//  Created by lanlan on 2021/6/16.
-//  Copyright © 2021 sunland. All rights reserved.
+//  Created by lanlan on 2021/6/15.
+//  Copyright © 2021 lanlan. All rights reserved.
 //
 
 import UIKit
@@ -46,7 +46,7 @@ class MallChildProductListVC: UIViewController  {
     
     weak var delegate:MallChildProductListVCDelegate?
     
-    private var productList:[MallPorductModel]?
+    private var productList:[MallProductModel]?
     ///是否加载多规格成功
     private var isLoadProductSpecsDetailsSuccess = false
     

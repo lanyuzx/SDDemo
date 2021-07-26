@@ -1,9 +1,9 @@
 //
-//  MallChildProductCell.swift
-//  SDDailyStudyProject
+//  MallSpuModel.swift
+//  lanlan
 //
-//  Created by lanlan on 2021/6/16.
-//  Copyright © 2021 sunland. All rights reserved.
+//  Created by lanlan on 2021/6/15.
+//  Copyright © 2021 lanlan. All rights reserved.
 //
 
 import UIKit
@@ -11,14 +11,14 @@ import HandyJSON
 import Kingfisher
 
 protocol MallChildProductCellDelegate :NSObjectProtocol {
-    func mallChildProductCell(cell:MallChildProductCell ,addShopping porductModel:MallPorductModel?  )
+    func mallChildProductCell(cell:MallChildProductCell ,addShopping porductModel:MallProductModel?  )
 }
 
 class MallChildProductCell: UITableViewCell {
     
     weak var delegate: MallChildProductCellDelegate?
     
-    var model:MallPorductModel? {
+    var model:MallProductModel? {
         didSet {
             productIV.kf.setImage(with: URL(string: model?.thumbnail ?? ""))
             titleLable.text = model?.title

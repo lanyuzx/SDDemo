@@ -1,9 +1,9 @@
 //
-//  MallSpuLeftCell.swift
-//  SDDailyStudyProject
+//  MallSpuModel.swift
+//  lanlan
 //
 //  Created by lanlan on 2021/6/15.
-//  Copyright © 2021 sunland. All rights reserved.
+//  Copyright © 2021 lanlan. All rights reserved.
 //
 
 import UIKit

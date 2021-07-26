@@ -1,9 +1,9 @@
 //
-//  SDUIColor+Basic.swift
-//  SDJG
+//  MallSpuModel.swift
+//  lanlan
 //
-//  Created by lucky on 2020/2/27.
-//  Copyright © 2020 王俊. All rights reserved.
+//  Created by lanlan on 2021/6/15.
+//  Copyright © 2021 lanlan. All rights reserved.
 //
 
 import UIKit

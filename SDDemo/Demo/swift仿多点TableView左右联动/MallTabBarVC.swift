@@ -1,9 +1,9 @@
 //
-//  MallTabBarVC.swift
-//  SDDailyStudyProject
+//  MallSpuModel.swift
+//  lanlan
 //
 //  Created by lanlan on 2021/6/15.
-//  Copyright © 2021 sunland. All rights reserved.
+//  Copyright © 2021 lanlan. All rights reserved.
 //
 
 import UIKit
@@ -61,14 +61,24 @@ class MallTabBarVC: UIViewController {
         //模拟异步加载数据
         DispatchQueue.global().async {
             if  let path = Bundle.main.path(forResource: "category", ofType: "json") {
-                if let url = URL(string: path) {
-                    if let data = try? Data.init(contentsOf: url) {
-                        if let jsonDict = try? JSONSerialization.jsonObject(with: data, options: .allowFragments)  {
-//                            self.categoryList = JSONDeserializer<MallCategoryModel>.deserializeModelArrayFrom(json: <#T##String?#>)
-                            DispatchQueue.main.async {
-                                self.leftTableView.reloadData()
-                            }
-                        }
+                if let data =  NSData.init(contentsOfFile: path) {
+                    let jsonDict = try? JSONSerialization.jsonObject(with: data as Data, options: .allowFragments) as?[String : Any]
+                    let result = (jsonDict?["data"] as? [String : Any])?["firstCategory"] as?[Any]
+                    //请求一级类目和二级
+                    self.categoryList = JSONDeserializer<MallCategoryModel>.deserializeModelArrayFrom(array: result)?.compactMap({ (item) -> MallCategoryModel? in
+                        return item
+                    })
+                    ///做二级类目和一级类目做关联
+                    self.categoryList?.forEach({ (firstCategory) in
+                        firstCategory.secondCategory?.forEach({ (item) in
+                            item.firstCategory = firstCategory
+                        })
+                    })
+                    DispatchQueue.main.async {
+                        //默认产品加载第一个
+                        self.tableView(self.leftTableView, didSelectRowAt: IndexPath(item: 0, section: 0))
+                        //根据二级获取产品
+                        self.setupSecondCategoryIdProductList()
                     }
                    
                 }
@@ -86,6 +96,23 @@ class MallTabBarVC: UIViewController {
         
         categoryList?.forEach({ (item) in
             item.secondCategory?.forEach({ (secondCategoryItem) in
+                secondCategoryList.append(secondCategoryItem)
+                //根据id区对应的文件
+                if let path = Bundle.main.path(forResource: "product_\(secondCategoryItem.secondCategoryId ?? "")", ofType: "json") {
+                    group.enter()
+                    DispatchQueue.global().async {
+                        if let data =  NSData.init(contentsOfFile: path) {
+                            if let jsonDict = (((try? JSONSerialization.jsonObject(with: data as Data, options: .allowFragments) as?[String : Any])?["data"] as? [String:Any])?["list"] as? [Any]?) {
+                                let productList = JSONDeserializer<MallProductModel>.deserializeModelArrayFrom(array: jsonDict)?.compactMap({ (item) -> MallProductModel? in
+                                    return item
+                                })
+                                secondCategoryItem.products = productList
+                                group.leave()
+                            }
+                            
+                        }
+                    }
+                }
                 
             })
         })
