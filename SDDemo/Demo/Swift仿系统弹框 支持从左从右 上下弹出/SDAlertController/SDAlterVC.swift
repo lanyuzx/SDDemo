@@ -86,7 +86,7 @@ class SDAlterVC: SDBaseVC {
         view.backgroundColor = .red
        let alterVc = SDCustomAlertController.alertController(withCustomAlertView: view, preferredStyle: .alert, animationType: .shrink, panGestureDismissal: true)
         alterVc.updateCustomViewSize(size: CGSize(width: 200, height: 200))
-        UIApplication.shared.keyWindow?.rootViewController?.present(alterVc, animated: true, completion: nil)
+        self.present(alterVc, animated: true, completion: nil)
         
     }
     
@@ -95,7 +95,7 @@ class SDAlterVC: SDBaseVC {
         let tableView = UITableView(frame: .zero, style: .plain)
         let alterVc = SDCustomAlertController.alertController(withCustomAlertView: tableView, preferredStyle: .actionSheet, animationType: .fromRight, panGestureDismissal: true)
         alterVc.updateCustomViewSize(size: CGSize(width: 200, height: UIScreen.main.bounds.self.height))
-         UIApplication.shared.keyWindow?.rootViewController?.present(alterVc, animated: true, completion: nil)
+        self.present(alterVc, animated: true, completion: nil)
     }
    
 }
