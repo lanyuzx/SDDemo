@@ -7,6 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0214AFC26AFEDAF002876B6 /* SDAlertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ABE26AFEDAF002876B6 /* SDAlertAnimation.swift */; };
+		A0214AFD26AFEDAF002876B6 /* SDAlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ABF26AFEDAF002876B6 /* SDAlertPresentationController.swift */; };
+		A0214AFE26AFEDAF002876B6 /* SDCustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC026AFEDAF002876B6 /* SDCustomAlertController.swift */; };
+		A0214AFF26AFEDAF002876B6 /* SDInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC126AFEDAF002876B6 /* SDInteractiveTransition.swift */; };
+		A0214B0026AFEDAF002876B6 /* SDOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC226AFEDAF002876B6 /* SDOverlayView.swift */; };
+		A0214B0126AFEDAF002876B6 /* JXSegmentedTitleOrImageItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC526AFEDAF002876B6 /* JXSegmentedTitleOrImageItemModel.swift */; };
+		A0214B0226AFEDAF002876B6 /* JXSegmentedTitleOrImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC626AFEDAF002876B6 /* JXSegmentedTitleOrImageDataSource.swift */; };
+		A0214B0326AFEDAF002876B6 /* JXSegmentedTitleOrImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC726AFEDAF002876B6 /* JXSegmentedTitleOrImageCell.swift */; };
+		A0214B0426AFEDAF002876B6 /* JXSegmentedBaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AC926AFEDAF002876B6 /* JXSegmentedBaseDataSource.swift */; };
+		A0214B0526AFEDAF002876B6 /* JXSegmentedBaseItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ACA26AFEDAF002876B6 /* JXSegmentedBaseItemModel.swift */; };
+		A0214B0626AFEDAF002876B6 /* JXSegmentedBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ACB26AFEDAF002876B6 /* JXSegmentedBaseCell.swift */; };
+		A0214B0726AFEDAF002876B6 /* JXSegmentedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ACC26AFEDAF002876B6 /* JXSegmentedCollectionView.swift */; };
+		A0214B0826AFEDAF002876B6 /* JXSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ACD26AFEDAF002876B6 /* JXSegmentedView.swift */; };
+		A0214B0926AFEDAF002876B6 /* JXSegmentedIndicatorDotLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ACF26AFEDAF002876B6 /* JXSegmentedIndicatorDotLineView.swift */; };
+		A0214B0A26AFEDAF002876B6 /* JXSegmentedIndicatorGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD026AFEDAF002876B6 /* JXSegmentedIndicatorGradientView.swift */; };
+		A0214B0B26AFEDAF002876B6 /* JXSegmentedIndicatorTriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD126AFEDAF002876B6 /* JXSegmentedIndicatorTriangleView.swift */; };
+		A0214B0C26AFEDAF002876B6 /* JXSegmentedIndicatorBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD226AFEDAF002876B6 /* JXSegmentedIndicatorBaseView.swift */; };
+		A0214B0D26AFEDAF002876B6 /* JXSegmentedIndicatorRainbowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD326AFEDAF002876B6 /* JXSegmentedIndicatorRainbowLineView.swift */; };
+		A0214B0E26AFEDAF002876B6 /* JXSegmentedIndicatorGradientLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD426AFEDAF002876B6 /* JXSegmentedIndicatorGradientLineView.swift */; };
+		A0214B0F26AFEDB0002876B6 /* JXSegmentedIndicatorParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD526AFEDAF002876B6 /* JXSegmentedIndicatorParams.swift */; };
+		A0214B1026AFEDB0002876B6 /* JXSegmentedIndicatorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD626AFEDAF002876B6 /* JXSegmentedIndicatorImageView.swift */; };
+		A0214B1126AFEDB0002876B6 /* JXSegmentedIndicatorBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD726AFEDAF002876B6 /* JXSegmentedIndicatorBackgroundView.swift */; };
+		A0214B1226AFEDB0002876B6 /* JXSegmentedIndicatorLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD826AFEDAF002876B6 /* JXSegmentedIndicatorLineView.swift */; };
+		A0214B1326AFEDB0002876B6 /* JXSegmentedIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AD926AFEDAF002876B6 /* JXSegmentedIndicatorProtocol.swift */; };
+		A0214B1426AFEDB0002876B6 /* JXSegmentedIndicatorDoubleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ADA26AFEDAF002876B6 /* JXSegmentedIndicatorDoubleLineView.swift */; };
+		A0214B1526AFEDB0002876B6 /* JXSegmentedComponetGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ADB26AFEDAF002876B6 /* JXSegmentedComponetGradientView.swift */; };
+		A0214B1626AFEDB0002876B6 /* JXSegmentedDotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ADD26AFEDAF002876B6 /* JXSegmentedDotCell.swift */; };
+		A0214B1726AFEDB0002876B6 /* JXSegmentedDotDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ADE26AFEDAF002876B6 /* JXSegmentedDotDataSource.swift */; };
+		A0214B1826AFEDB0002876B6 /* JXSegmentedDotItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214ADF26AFEDAF002876B6 /* JXSegmentedDotItemModel.swift */; };
+		A0214B1926AFEDB0002876B6 /* JXSegmentedTitleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE126AFEDAF002876B6 /* JXSegmentedTitleImageCell.swift */; };
+		A0214B1A26AFEDB0002876B6 /* JXSegmentedTitleImageItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE226AFEDAF002876B6 /* JXSegmentedTitleImageItemModel.swift */; };
+		A0214B1B26AFEDB0002876B6 /* JXSegmentedTitleImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE326AFEDAF002876B6 /* JXSegmentedTitleImageDataSource.swift */; };
+		A0214B1C26AFEDB0002876B6 /* JXSegmentedTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE526AFEDAF002876B6 /* JXSegmentedTitleCell.swift */; };
+		A0214B1D26AFEDB0002876B6 /* JXSegmentedTitleItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE626AFEDAF002876B6 /* JXSegmentedTitleItemModel.swift */; };
+		A0214B1E26AFEDB0002876B6 /* JXSegmentedTitleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE726AFEDAF002876B6 /* JXSegmentedTitleDataSource.swift */; };
+		A0214B1F26AFEDB0002876B6 /* JXSegmentedTitleGradientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AE926AFEDAF002876B6 /* JXSegmentedTitleGradientDataSource.swift */; };
+		A0214B2026AFEDB0002876B6 /* JXSegmentedTitleGradientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AEA26AFEDAF002876B6 /* JXSegmentedTitleGradientCell.swift */; };
+		A0214B2126AFEDB0002876B6 /* JXSegmentedTitleGradientItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AEB26AFEDAF002876B6 /* JXSegmentedTitleGradientItemModel.swift */; };
+		A0214B2226AFEDB0002876B6 /* JXSegmentedNumberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AED26AFEDAF002876B6 /* JXSegmentedNumberDataSource.swift */; };
+		A0214B2326AFEDB0002876B6 /* JXSegmentedNumberItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AEE26AFEDAF002876B6 /* JXSegmentedNumberItemModel.swift */; };
+		A0214B2426AFEDB0002876B6 /* JXSegmentedNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AEF26AFEDAF002876B6 /* JXSegmentedNumberCell.swift */; };
+		A0214B2526AFEDB0002876B6 /* JXSegmentedListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF126AFEDAF002876B6 /* JXSegmentedListContainerView.swift */; };
+		A0214B2626AFEDB0002876B6 /* JXSegmentedRTLLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF226AFEDAF002876B6 /* JXSegmentedRTLLayout.swift */; };
+		A0214B2726AFEDB0002876B6 /* JXSegmentedAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF326AFEDAF002876B6 /* JXSegmentedAnimator.swift */; };
+		A0214B2826AFEDB0002876B6 /* JXSegmentedViewTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF426AFEDAF002876B6 /* JXSegmentedViewTool.swift */; };
+		A0214B2926AFEDB0002876B6 /* JXSegmentedTitleAttributeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF626AFEDAF002876B6 /* JXSegmentedTitleAttributeDataSource.swift */; };
+		A0214B2A26AFEDB0002876B6 /* JXSegmentedTitleAttributeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF726AFEDAF002876B6 /* JXSegmentedTitleAttributeItemModel.swift */; };
+		A0214B2B26AFEDB0002876B6 /* JXSegmentedTitleAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF826AFEDAF002876B6 /* JXSegmentedTitleAttributeCell.swift */; };
+		A0214B2C26AFEDB0002876B6 /* SDSpecialActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AF926AFEDAF002876B6 /* SDSpecialActionSheetView.swift */; };
+		A0214B2E26AFEDB0002876B6 /* SDActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214AFB26AFEDAF002876B6 /* SDActionSheetView.swift */; };
+		A0214B3326AFEEC8002876B6 /* SDAlterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0214B3226AFEEC8002876B6 /* SDAlterVC.swift */; };
 		A02F24F32655F81C002614A0 /* SDKeyboardProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F24F22655F81C002614A0 /* SDKeyboardProtocolVC.swift */; };
 		A02F24FE2655F848002614A0 /* SDKeyboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F24FD2655F848002614A0 /* SDKeyboardProtocol.swift */; };
 		A034F655263911680096D7D2 /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F654263911680096D7D2 /* Extension+Array.swift */; };
@@ -77,6 +128,57 @@
 
 /* Begin PBXFileReference section */
 		2403F3DC6FA3A2640B78AFF4 /* Pods-SDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDDemo.debug.xcconfig"; path = "Target Support Files/Pods-SDDemo/Pods-SDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A0214ABE26AFEDAF002876B6 /* SDAlertAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAlertAnimation.swift; sourceTree = "<group>"; };
+		A0214ABF26AFEDAF002876B6 /* SDAlertPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAlertPresentationController.swift; sourceTree = "<group>"; };
+		A0214AC026AFEDAF002876B6 /* SDCustomAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCustomAlertController.swift; sourceTree = "<group>"; };
+		A0214AC126AFEDAF002876B6 /* SDInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDInteractiveTransition.swift; sourceTree = "<group>"; };
+		A0214AC226AFEDAF002876B6 /* SDOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDOverlayView.swift; sourceTree = "<group>"; };
+		A0214AC526AFEDAF002876B6 /* JXSegmentedTitleOrImageItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleOrImageItemModel.swift; sourceTree = "<group>"; };
+		A0214AC626AFEDAF002876B6 /* JXSegmentedTitleOrImageDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleOrImageDataSource.swift; sourceTree = "<group>"; };
+		A0214AC726AFEDAF002876B6 /* JXSegmentedTitleOrImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleOrImageCell.swift; sourceTree = "<group>"; };
+		A0214AC926AFEDAF002876B6 /* JXSegmentedBaseDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedBaseDataSource.swift; sourceTree = "<group>"; };
+		A0214ACA26AFEDAF002876B6 /* JXSegmentedBaseItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedBaseItemModel.swift; sourceTree = "<group>"; };
+		A0214ACB26AFEDAF002876B6 /* JXSegmentedBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedBaseCell.swift; sourceTree = "<group>"; };
+		A0214ACC26AFEDAF002876B6 /* JXSegmentedCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedCollectionView.swift; sourceTree = "<group>"; };
+		A0214ACD26AFEDAF002876B6 /* JXSegmentedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedView.swift; sourceTree = "<group>"; };
+		A0214ACF26AFEDAF002876B6 /* JXSegmentedIndicatorDotLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorDotLineView.swift; sourceTree = "<group>"; };
+		A0214AD026AFEDAF002876B6 /* JXSegmentedIndicatorGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorGradientView.swift; sourceTree = "<group>"; };
+		A0214AD126AFEDAF002876B6 /* JXSegmentedIndicatorTriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorTriangleView.swift; sourceTree = "<group>"; };
+		A0214AD226AFEDAF002876B6 /* JXSegmentedIndicatorBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorBaseView.swift; sourceTree = "<group>"; };
+		A0214AD326AFEDAF002876B6 /* JXSegmentedIndicatorRainbowLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorRainbowLineView.swift; sourceTree = "<group>"; };
+		A0214AD426AFEDAF002876B6 /* JXSegmentedIndicatorGradientLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorGradientLineView.swift; sourceTree = "<group>"; };
+		A0214AD526AFEDAF002876B6 /* JXSegmentedIndicatorParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorParams.swift; sourceTree = "<group>"; };
+		A0214AD626AFEDAF002876B6 /* JXSegmentedIndicatorImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorImageView.swift; sourceTree = "<group>"; };
+		A0214AD726AFEDAF002876B6 /* JXSegmentedIndicatorBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorBackgroundView.swift; sourceTree = "<group>"; };
+		A0214AD826AFEDAF002876B6 /* JXSegmentedIndicatorLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorLineView.swift; sourceTree = "<group>"; };
+		A0214AD926AFEDAF002876B6 /* JXSegmentedIndicatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorProtocol.swift; sourceTree = "<group>"; };
+		A0214ADA26AFEDAF002876B6 /* JXSegmentedIndicatorDoubleLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedIndicatorDoubleLineView.swift; sourceTree = "<group>"; };
+		A0214ADB26AFEDAF002876B6 /* JXSegmentedComponetGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedComponetGradientView.swift; sourceTree = "<group>"; };
+		A0214ADD26AFEDAF002876B6 /* JXSegmentedDotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedDotCell.swift; sourceTree = "<group>"; };
+		A0214ADE26AFEDAF002876B6 /* JXSegmentedDotDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedDotDataSource.swift; sourceTree = "<group>"; };
+		A0214ADF26AFEDAF002876B6 /* JXSegmentedDotItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedDotItemModel.swift; sourceTree = "<group>"; };
+		A0214AE126AFEDAF002876B6 /* JXSegmentedTitleImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleImageCell.swift; sourceTree = "<group>"; };
+		A0214AE226AFEDAF002876B6 /* JXSegmentedTitleImageItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleImageItemModel.swift; sourceTree = "<group>"; };
+		A0214AE326AFEDAF002876B6 /* JXSegmentedTitleImageDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleImageDataSource.swift; sourceTree = "<group>"; };
+		A0214AE526AFEDAF002876B6 /* JXSegmentedTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleCell.swift; sourceTree = "<group>"; };
+		A0214AE626AFEDAF002876B6 /* JXSegmentedTitleItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleItemModel.swift; sourceTree = "<group>"; };
+		A0214AE726AFEDAF002876B6 /* JXSegmentedTitleDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleDataSource.swift; sourceTree = "<group>"; };
+		A0214AE926AFEDAF002876B6 /* JXSegmentedTitleGradientDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleGradientDataSource.swift; sourceTree = "<group>"; };
+		A0214AEA26AFEDAF002876B6 /* JXSegmentedTitleGradientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleGradientCell.swift; sourceTree = "<group>"; };
+		A0214AEB26AFEDAF002876B6 /* JXSegmentedTitleGradientItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleGradientItemModel.swift; sourceTree = "<group>"; };
+		A0214AED26AFEDAF002876B6 /* JXSegmentedNumberDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedNumberDataSource.swift; sourceTree = "<group>"; };
+		A0214AEE26AFEDAF002876B6 /* JXSegmentedNumberItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedNumberItemModel.swift; sourceTree = "<group>"; };
+		A0214AEF26AFEDAF002876B6 /* JXSegmentedNumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedNumberCell.swift; sourceTree = "<group>"; };
+		A0214AF126AFEDAF002876B6 /* JXSegmentedListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedListContainerView.swift; sourceTree = "<group>"; };
+		A0214AF226AFEDAF002876B6 /* JXSegmentedRTLLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedRTLLayout.swift; sourceTree = "<group>"; };
+		A0214AF326AFEDAF002876B6 /* JXSegmentedAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedAnimator.swift; sourceTree = "<group>"; };
+		A0214AF426AFEDAF002876B6 /* JXSegmentedViewTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewTool.swift; sourceTree = "<group>"; };
+		A0214AF626AFEDAF002876B6 /* JXSegmentedTitleAttributeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleAttributeDataSource.swift; sourceTree = "<group>"; };
+		A0214AF726AFEDAF002876B6 /* JXSegmentedTitleAttributeItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleAttributeItemModel.swift; sourceTree = "<group>"; };
+		A0214AF826AFEDAF002876B6 /* JXSegmentedTitleAttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXSegmentedTitleAttributeCell.swift; sourceTree = "<group>"; };
+		A0214AF926AFEDAF002876B6 /* SDSpecialActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSpecialActionSheetView.swift; sourceTree = "<group>"; };
+		A0214AFB26AFEDAF002876B6 /* SDActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDActionSheetView.swift; sourceTree = "<group>"; };
+		A0214B3226AFEEC8002876B6 /* SDAlterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAlterVC.swift; sourceTree = "<group>"; };
 		A02F24F22655F81C002614A0 /* SDKeyboardProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKeyboardProtocolVC.swift; sourceTree = "<group>"; };
 		A02F24FD2655F848002614A0 /* SDKeyboardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKeyboardProtocol.swift; sourceTree = "<group>"; };
 		A034F654263911680096D7D2 /* Extension+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
@@ -176,6 +278,160 @@
 				F06684FA559811A2AED0779A /* Pods_SDDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0214ABC26AFEDAF002876B6 /* Swift仿系统弹框 支持从左从右 上下弹出 */ = {
+			isa = PBXGroup;
+			children = (
+				A0214ABD26AFEDAF002876B6 /* SDAlertController */,
+				A0214AC326AFEDAF002876B6 /* JXSegmentedView */,
+				A0214AF926AFEDAF002876B6 /* SDSpecialActionSheetView.swift */,
+				A0214AFB26AFEDAF002876B6 /* SDActionSheetView.swift */,
+			);
+			path = "Swift仿系统弹框 支持从左从右 上下弹出";
+			sourceTree = "<group>";
+		};
+		A0214ABD26AFEDAF002876B6 /* SDAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				A0214ABE26AFEDAF002876B6 /* SDAlertAnimation.swift */,
+				A0214ABF26AFEDAF002876B6 /* SDAlertPresentationController.swift */,
+				A0214AC026AFEDAF002876B6 /* SDCustomAlertController.swift */,
+				A0214AC126AFEDAF002876B6 /* SDInteractiveTransition.swift */,
+				A0214AC226AFEDAF002876B6 /* SDOverlayView.swift */,
+				A0214B3226AFEEC8002876B6 /* SDAlterVC.swift */,
+			);
+			path = SDAlertController;
+			sourceTree = "<group>";
+		};
+		A0214AC326AFEDAF002876B6 /* JXSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AC426AFEDAF002876B6 /* TitleOrImage */,
+				A0214AC826AFEDAF002876B6 /* Core */,
+				A0214ACE26AFEDAF002876B6 /* Indicator */,
+				A0214ADC26AFEDAF002876B6 /* Dot */,
+				A0214AE026AFEDAF002876B6 /* TitleImage */,
+				A0214AE426AFEDAF002876B6 /* Title */,
+				A0214AE826AFEDAF002876B6 /* TitleGradient */,
+				A0214AEC26AFEDAF002876B6 /* Number */,
+				A0214AF026AFEDAF002876B6 /* Common */,
+				A0214AF526AFEDAF002876B6 /* AttributeTitle */,
+			);
+			path = JXSegmentedView;
+			sourceTree = "<group>";
+		};
+		A0214AC426AFEDAF002876B6 /* TitleOrImage */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AC526AFEDAF002876B6 /* JXSegmentedTitleOrImageItemModel.swift */,
+				A0214AC626AFEDAF002876B6 /* JXSegmentedTitleOrImageDataSource.swift */,
+				A0214AC726AFEDAF002876B6 /* JXSegmentedTitleOrImageCell.swift */,
+			);
+			path = TitleOrImage;
+			sourceTree = "<group>";
+		};
+		A0214AC826AFEDAF002876B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AC926AFEDAF002876B6 /* JXSegmentedBaseDataSource.swift */,
+				A0214ACA26AFEDAF002876B6 /* JXSegmentedBaseItemModel.swift */,
+				A0214ACB26AFEDAF002876B6 /* JXSegmentedBaseCell.swift */,
+				A0214ACC26AFEDAF002876B6 /* JXSegmentedCollectionView.swift */,
+				A0214ACD26AFEDAF002876B6 /* JXSegmentedView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A0214ACE26AFEDAF002876B6 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				A0214ACF26AFEDAF002876B6 /* JXSegmentedIndicatorDotLineView.swift */,
+				A0214AD026AFEDAF002876B6 /* JXSegmentedIndicatorGradientView.swift */,
+				A0214AD126AFEDAF002876B6 /* JXSegmentedIndicatorTriangleView.swift */,
+				A0214AD226AFEDAF002876B6 /* JXSegmentedIndicatorBaseView.swift */,
+				A0214AD326AFEDAF002876B6 /* JXSegmentedIndicatorRainbowLineView.swift */,
+				A0214AD426AFEDAF002876B6 /* JXSegmentedIndicatorGradientLineView.swift */,
+				A0214AD526AFEDAF002876B6 /* JXSegmentedIndicatorParams.swift */,
+				A0214AD626AFEDAF002876B6 /* JXSegmentedIndicatorImageView.swift */,
+				A0214AD726AFEDAF002876B6 /* JXSegmentedIndicatorBackgroundView.swift */,
+				A0214AD826AFEDAF002876B6 /* JXSegmentedIndicatorLineView.swift */,
+				A0214AD926AFEDAF002876B6 /* JXSegmentedIndicatorProtocol.swift */,
+				A0214ADA26AFEDAF002876B6 /* JXSegmentedIndicatorDoubleLineView.swift */,
+				A0214ADB26AFEDAF002876B6 /* JXSegmentedComponetGradientView.swift */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		A0214ADC26AFEDAF002876B6 /* Dot */ = {
+			isa = PBXGroup;
+			children = (
+				A0214ADD26AFEDAF002876B6 /* JXSegmentedDotCell.swift */,
+				A0214ADE26AFEDAF002876B6 /* JXSegmentedDotDataSource.swift */,
+				A0214ADF26AFEDAF002876B6 /* JXSegmentedDotItemModel.swift */,
+			);
+			path = Dot;
+			sourceTree = "<group>";
+		};
+		A0214AE026AFEDAF002876B6 /* TitleImage */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AE126AFEDAF002876B6 /* JXSegmentedTitleImageCell.swift */,
+				A0214AE226AFEDAF002876B6 /* JXSegmentedTitleImageItemModel.swift */,
+				A0214AE326AFEDAF002876B6 /* JXSegmentedTitleImageDataSource.swift */,
+			);
+			path = TitleImage;
+			sourceTree = "<group>";
+		};
+		A0214AE426AFEDAF002876B6 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AE526AFEDAF002876B6 /* JXSegmentedTitleCell.swift */,
+				A0214AE626AFEDAF002876B6 /* JXSegmentedTitleItemModel.swift */,
+				A0214AE726AFEDAF002876B6 /* JXSegmentedTitleDataSource.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		A0214AE826AFEDAF002876B6 /* TitleGradient */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AE926AFEDAF002876B6 /* JXSegmentedTitleGradientDataSource.swift */,
+				A0214AEA26AFEDAF002876B6 /* JXSegmentedTitleGradientCell.swift */,
+				A0214AEB26AFEDAF002876B6 /* JXSegmentedTitleGradientItemModel.swift */,
+			);
+			path = TitleGradient;
+			sourceTree = "<group>";
+		};
+		A0214AEC26AFEDAF002876B6 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AED26AFEDAF002876B6 /* JXSegmentedNumberDataSource.swift */,
+				A0214AEE26AFEDAF002876B6 /* JXSegmentedNumberItemModel.swift */,
+				A0214AEF26AFEDAF002876B6 /* JXSegmentedNumberCell.swift */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		A0214AF026AFEDAF002876B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AF126AFEDAF002876B6 /* JXSegmentedListContainerView.swift */,
+				A0214AF226AFEDAF002876B6 /* JXSegmentedRTLLayout.swift */,
+				A0214AF326AFEDAF002876B6 /* JXSegmentedAnimator.swift */,
+				A0214AF426AFEDAF002876B6 /* JXSegmentedViewTool.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A0214AF526AFEDAF002876B6 /* AttributeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				A0214AF626AFEDAF002876B6 /* JXSegmentedTitleAttributeDataSource.swift */,
+				A0214AF726AFEDAF002876B6 /* JXSegmentedTitleAttributeItemModel.swift */,
+				A0214AF826AFEDAF002876B6 /* JXSegmentedTitleAttributeCell.swift */,
+			);
+			path = AttributeTitle;
 			sourceTree = "<group>";
 		};
 		A02F24F12655F7E1002614A0 /* swift用协议包装键盘通知 */ = {
@@ -294,6 +550,7 @@
 		A07662C8263536F7009C0192 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A0214ABC26AFEDAF002876B6 /* Swift仿系统弹框 支持从左从右 上下弹出 */,
 				A05BA70426AADE75005D08F5 /* swift仿多点TableView左右联动 */,
 				A02F24F12655F7E1002614A0 /* swift用协议包装键盘通知 */,
 				A07AEAD32647C38800BADB9F /* iOS仿QQ消息粘性视图 */,
@@ -532,33 +789,84 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0214B2B26AFEDB0002876B6 /* JXSegmentedTitleAttributeCell.swift in Sources */,
+				A0214B1126AFEDB0002876B6 /* JXSegmentedIndicatorBackgroundView.swift in Sources */,
+				A0214AFC26AFEDAF002876B6 /* SDAlertAnimation.swift in Sources */,
 				A05D2E8D2637BCF400B61291 /* SDClockView.swift in Sources */,
+				A0214B1326AFEDB0002876B6 /* JXSegmentedIndicatorProtocol.swift in Sources */,
+				A0214B0C26AFEDAF002876B6 /* JXSegmentedIndicatorBaseView.swift in Sources */,
 				A05BA72A26AADEBC005D08F5 /* SDUIColor+Basic.swift in Sources */,
 				A05BA74226AADF90005D08F5 /* SDColor.swift in Sources */,
+				A0214B0326AFEDAF002876B6 /* JXSegmentedTitleOrImageCell.swift in Sources */,
+				A0214B1626AFEDB0002876B6 /* JXSegmentedDotCell.swift in Sources */,
 				A05BA74E26AAE0CB005D08F5 /* SDUIView+Basic.swift in Sources */,
+				A0214B2E26AFEDB0002876B6 /* SDActionSheetView.swift in Sources */,
+				A0214B0226AFEDAF002876B6 /* JXSegmentedTitleOrImageDataSource.swift in Sources */,
+				A0214B2626AFEDB0002876B6 /* JXSegmentedRTLLayout.swift in Sources */,
 				A07662E626353E13009C0192 /* SDBaseVC.swift in Sources */,
+				A0214B1F26AFEDB0002876B6 /* JXSegmentedTitleGradientDataSource.swift in Sources */,
+				A0214B1E26AFEDB0002876B6 /* JXSegmentedTitleDataSource.swift in Sources */,
+				A0214B0026AFEDAF002876B6 /* SDOverlayView.swift in Sources */,
+				A0214B1526AFEDB0002876B6 /* JXSegmentedComponetGradientView.swift in Sources */,
+				A0214B2726AFEDB0002876B6 /* JXSegmentedAnimator.swift in Sources */,
+				A0214B1926AFEDB0002876B6 /* JXSegmentedTitleImageCell.swift in Sources */,
+				A0214B2426AFEDB0002876B6 /* JXSegmentedNumberCell.swift in Sources */,
+				A0214AFE26AFEDAF002876B6 /* SDCustomAlertController.swift in Sources */,
 				A08C13632643B345002DD0A3 /* SDCycleViewCell.swift in Sources */,
+				A0214B0B26AFEDAF002876B6 /* JXSegmentedIndicatorTriangleView.swift in Sources */,
+				A0214B1D26AFEDB0002876B6 /* JXSegmentedTitleItemModel.swift in Sources */,
 				A07662CB26353712009C0192 /* SDPlayAnimationVC.swift in Sources */,
+				A0214B1226AFEDB0002876B6 /* JXSegmentedIndicatorLineView.swift in Sources */,
 				A07662EE26353E6A009C0192 /* SDParticleAnimationsView.swift in Sources */,
+				A0214B0626AFEDAF002876B6 /* JXSegmentedBaseCell.swift in Sources */,
 				A05D2E852637BB7700B61291 /* SDClockVC.swift in Sources */,
+				A0214B0E26AFEDAF002876B6 /* JXSegmentedIndicatorGradientLineView.swift in Sources */,
+				A0214AFF26AFEDAF002876B6 /* SDInteractiveTransition.swift in Sources */,
 				A05D2EA42637D4F600B61291 /* SDTimerObserver.swift in Sources */,
+				A0214B2C26AFEDB0002876B6 /* SDSpecialActionSheetView.swift in Sources */,
+				A0214B1B26AFEDB0002876B6 /* JXSegmentedTitleImageDataSource.swift in Sources */,
+				A0214AFD26AFEDAF002876B6 /* SDAlertPresentationController.swift in Sources */,
 				A07662C4263531B2009C0192 /* SDDemoModel.swift in Sources */,
 				A02F24FE2655F848002614A0 /* SDKeyboardProtocol.swift in Sources */,
 				A034F655263911680096D7D2 /* Extension+Array.swift in Sources */,
+				A0214B0A26AFEDAF002876B6 /* JXSegmentedIndicatorGradientView.swift in Sources */,
+				A0214B0726AFEDAF002876B6 /* JXSegmentedCollectionView.swift in Sources */,
 				A08C13622643B345002DD0A3 /* SDCycleLayout.swift in Sources */,
 				A07AEAD52647C3BF00BADB9F /* SDQQBageValueVC.swift in Sources */,
 				A05BA73726AADF1B005D08F5 /* MallSpuLeftView.swift in Sources */,
+				A0214B2326AFEDB0002876B6 /* JXSegmentedNumberItemModel.swift in Sources */,
+				A0214B0D26AFEDAF002876B6 /* JXSegmentedIndicatorRainbowLineView.swift in Sources */,
 				A05BA73326AADF1B005D08F5 /* MallCategoryModel.swift in Sources */,
+				A0214B3326AFEEC8002876B6 /* SDAlterVC.swift in Sources */,
+				A0214B0526AFEDAF002876B6 /* JXSegmentedBaseItemModel.swift in Sources */,
+				A0214B1726AFEDB0002876B6 /* JXSegmentedDotDataSource.swift in Sources */,
+				A0214B0826AFEDAF002876B6 /* JXSegmentedView.swift in Sources */,
+				A0214B0426AFEDAF002876B6 /* JXSegmentedBaseDataSource.swift in Sources */,
 				A07AEAE02647C43500BADB9F /* SDBageValueButton.swift in Sources */,
+				A0214B0F26AFEDB0002876B6 /* JXSegmentedIndicatorParams.swift in Sources */,
 				A05BA73526AADF1B005D08F5 /* MallChildProductListVC.swift in Sources */,
 				A08C13612643B345002DD0A3 /* SDCycleView.swift in Sources */,
 				A05BA73426AADF1B005D08F5 /* MallChildProductCell.swift in Sources */,
+				A0214B1C26AFEDB0002876B6 /* JXSegmentedTitleCell.swift in Sources */,
+				A0214B1A26AFEDB0002876B6 /* JXSegmentedTitleImageItemModel.swift in Sources */,
+				A0214B1426AFEDB0002876B6 /* JXSegmentedIndicatorDoubleLineView.swift in Sources */,
 				A08C13602643B345002DD0A3 /* SDPageControl.swift in Sources */,
+				A0214B2226AFEDB0002876B6 /* JXSegmentedNumberDataSource.swift in Sources */,
+				A0214B2926AFEDB0002876B6 /* JXSegmentedTitleAttributeDataSource.swift in Sources */,
+				A0214B0126AFEDAF002876B6 /* JXSegmentedTitleOrImageItemModel.swift in Sources */,
 				A07662DE26353DD4009C0192 /* SDParticleAnimationsVC.swift in Sources */,
+				A0214B2826AFEDB0002876B6 /* JXSegmentedViewTool.swift in Sources */,
+				A0214B2A26AFEDB0002876B6 /* JXSegmentedTitleAttributeItemModel.swift in Sources */,
+				A0214B0926AFEDAF002876B6 /* JXSegmentedIndicatorDotLineView.swift in Sources */,
+				A0214B2126AFEDB0002876B6 /* JXSegmentedTitleGradientItemModel.swift in Sources */,
 				A076628426352EFC009C0192 /* SDDemoVC.swift in Sources */,
 				A07662D326353733009C0192 /* SDPlayAnimationView.swift in Sources */,
+				A0214B2026AFEDB0002876B6 /* JXSegmentedTitleGradientCell.swift in Sources */,
+				A0214B1026AFEDB0002876B6 /* JXSegmentedIndicatorImageView.swift in Sources */,
 				A05BA73626AADF1B005D08F5 /* MallTabBarVC.swift in Sources */,
+				A0214B2526AFEDB0002876B6 /* JXSegmentedListContainerView.swift in Sources */,
 				A02F24F32655F81C002614A0 /* SDKeyboardProtocolVC.swift in Sources */,
+				A0214B1826AFEDB0002876B6 /* JXSegmentedDotItemModel.swift in Sources */,
 				A076628026352EFC009C0192 /* AppDelegate.swift in Sources */,
 				A08C13682643B448002DD0A3 /* SDSDCycleViewVC.swift in Sources */,
 			);
