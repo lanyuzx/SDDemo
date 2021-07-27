@@ -3,22 +3,4 @@
    uuid = "CC8F49E6-2B9D-44B9-B61A-88F4FCC73D47"
    type = "0"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7B5E0991-5708-4825-99E2-10AC59D50B46"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SDDemo/Demo/swift&#x7528;&#x534f;&#x8bae;&#x5305;&#x88c5;&#x952e;&#x76d8;&#x901a;&#x77e5;/SDKeyboardProtocolVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "notificationKeyboardWillShow()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>

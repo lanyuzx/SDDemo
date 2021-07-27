@@ -8,9 +8,9 @@
 import UIKit
 
 class SDKeyboardProtocolVC: SDBaseVC , SDKeyboardProtocol {
-  
-    
    
+    
+    
     var tf:UITextField?
     
     override func viewDidLoad() {
@@ -38,5 +38,18 @@ class SDKeyboardProtocolVC: SDBaseVC , SDKeyboardProtocol {
     func notificationKeyboardWillShow() {
         
     }
+    
+    func notificationKeyboardDidShow() {
+        
+    }
+    
+    func notificationKeyboardDidChangeFrame(notification: Notification) {
+        
+    }
+    
+    func notificationKeyboardDidHide() {
+        
+    }
+    
 
 }
